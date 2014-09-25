@@ -1,0 +1,31 @@
+---
+abstract: 'Open Bible Markup Language parser and renderer'
+author:
+  - 'Gryphon Shafer <gryphon@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.120351'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Bible-OBML
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  List::MoreUtils: 0
+  Moose: 0
+  Test::Moose: 0
+  Test::Most: 0
+  Text::Balanced: 0
+  Text::Wrap: 0
+  Throwable: 0
+  perl: 5.14
+resources:
+  repository: https://github.com/gryphonshafer/Bible-OBML.git
+version: 1.02
